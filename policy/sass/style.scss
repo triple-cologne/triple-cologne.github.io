@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.policy {
+    max-width: 1140px;
+	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    h1, h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .policy {
+        max-width: 960px;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .policy {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .policy {
+        max-width: 540px;
+        h1 {
+            font-size: 22px;
+        }
+        h4 {
+            font-size: 14px;
+        }
+        p {
+            font-size: 14px;
+            text-align: justify;
+        }
+        
+    }
+}
+
+@media (max-width: 576px) {
+    .policy {
+        width: 300px;
+        padding: 0 10px;
+    }
+}
